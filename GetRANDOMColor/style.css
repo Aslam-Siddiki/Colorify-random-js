@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color: azure;
+}
+
+div{
+    height:200px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+h3{
+    height: 20px;
+    width: 230px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
