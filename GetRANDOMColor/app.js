@@ -7,10 +7,10 @@ let Click = function(){
     let randomColor = getRandomColor();
 
     h3.innerText = randomColor;
-    div.style.backgroundColor = randomColor;
     h3.style.color = randomColor;
     h3.style.borderColor = randomColor;
     btn.style.backgroundColor = randomColor;
+    div.style.backgroundColor = randomColor;
 
     console.log("color updated",randomColor);
 }
