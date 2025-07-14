@@ -1,6 +1,6 @@
 let btn = document.querySelector("button");
 
-Click = function(){
+let Click = function(){
     let h3 = document.querySelector("h3");
     let div=document.querySelector(".colorbox");
 
@@ -9,6 +9,7 @@ Click = function(){
     h3.innerText = randomColor;
     div.style.backgroundColor = randomColor;
     h3.style.color = randomColor;
+    h3.style.borderColor = randomColor;
     btn.style.backgroundColor = randomColor;
 
     console.log("color updated",randomColor);
